@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+@* Google font library *@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+
+<div class="page">
+    <main>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="/poker">Poker</a></li>
+            </ul>
+            <ul>
+                <li><a href="/AddGame">Add Game</a></li>
+            </ul>
+            <ul>
+                <li><a href="/AddPlayer">Add Player</a></li>
+            </ul>
+            <ul>
+                <li><a href="/ProfilePage">Player Stats</a></li>
+            </ul>
+        </nav>
+        <BlazoredToasts />
+        @Body
+    </main>
+</div>
+

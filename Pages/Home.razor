@@ -1,0 +1,65 @@
+﻿@page "/"
+@using Models
+@using SampleApi.Dtos
+
+<PageTitle>Home</PageTitle>
+<link href="css/Home.css" rel="stylesheet" />
+
+<div class="main">
+
+    <h1>Last 5 Poker sessions</h1>
+
+    @if(!isLoading)
+    {
+        foreach (var session in last5PokerSessions)
+        {
+            <div class="sessionList">
+                <ul>
+                    <li>Date: @session.Date.ToShortDateString()</li>
+                    <li>Biggest Winner: @session.BiggestWinner</li>
+                    <li class="win">$@session.BiggestWin</li>
+                    <li> <img src="@session.WinnerImageUrl" /> </li>
+                    <li>Biggest Loser: @session.BiggestLoser</li>
+                    <li class="loss">$@session.BiggestLoss</li>
+                    <li> <img src="@session.LoserImageUrl" /> </li>
+                </ul>
+            </div>
+        }
+    }
+    else if(failedToLoad)
+    {
+        <h2> Failed to Load </h2>
+    }
+    else
+    {
+        <h2>Loading...</h2>
+    }
+
+</div>
+@code {
+    bool isLoading = true;
+    bool failedToLoad = false;
+    static HttpClient client = new HttpClient();
+    List<Last5PokerSessions> last5PokerSessions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            HttpResponseMessage response = await client.GetAsync("https://sampleapi-9y49.onrender.com/LoadLast5PokerSessions");
+
+            if (response.IsSuccessStatusCode)
+            {
+                last5PokerSessions = await response.Content.ReadFromJsonAsync<List<Last5PokerSessions>>();
+                isLoading = false;
+            }
+        }
+        catch
+        {
+            isLoading = false;
+            failedToLoad = true;
+        }
+        StateHasChanged();
+
+    }
+}

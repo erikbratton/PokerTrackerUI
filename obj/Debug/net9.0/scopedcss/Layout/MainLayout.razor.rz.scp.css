@@ -1,0 +1,39 @@
+
+*[b-0n1t63iwor] {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100%;
+}
+
+nav[b-0n1t63iwor] {
+    margin: 0 0 0 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul[b-0n1t63iwor] {
+    list-style: none;
+}
+
+nav ul li[b-0n1t63iwor] {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+nav ul li a[b-0n1t63iwor] {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover[b-0n1t63iwor]
+{
+    text-decoration: underline;
+}
+

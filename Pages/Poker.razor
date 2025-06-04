@@ -1,0 +1,112 @@
+﻿@page "/Poker"
+@using Models
+@using System.Net.Http
+
+<PageTitle>PokerStats</PageTitle>
+<link href="css/PokerPlayers.css" rel="stylesheet" />
+
+<h1>Poker Statistics</h1>
+
+@if (isLoading)
+{
+    <h2>loading...</h2>
+}
+else{
+    <div class="Group">
+        <h2 style="color: @_piLambSelected" @onclick="ChangePlayersToPiLamb">Pi Lamb</h2>
+        <h2 style="color: @_hometownSelected" @onclick="ChangePlayersToHometown">Hometown</h2>
+    </div>
+    if(PokerPlayers.Count >= 3)
+    {
+        <h2 style="padding-top: 2rem">Top 3</h2>
+        <div class="Leaderboard">
+            @*<img src="pokertable.png"/>*@
+            <div class="Podium">
+                <p>@PokerPlayers[1].UserName</p>
+                <div> <img class="square" src="/PokerChips.png" /> </div>
+            </div>
+            <div class="Podium">
+                <p>@PokerPlayers[0].UserName</p>
+                <div> <img class="square2" src="/PokerChips.png" /> </div>
+            </div>
+            <div class="Podium">
+                <p>@PokerPlayers[2].UserName</p>
+                <div> <img class="square3" src="/PokerChips.png" /> </div>
+            </div>
+        </div>
+    }
+
+    <h2 style="padding-top: 4rem; padding-bottom: 2rem;">Leaderboard</h2>
+
+    var count = 1;
+    @foreach (var player in PokerPlayers)
+    {
+        // text color
+        string textColor;
+        @if (player.PokerBalance > 0) textColor = "green";
+        else if (player.PokerBalance < 0) textColor = "red";
+        else textColor = "grey";
+
+        // List for each player
+        <div class="playerTable">
+            <ul class="playerList">
+                <li>@count</li>
+                <li><img src="@player.ImageUrl" alt="Player Picture" /></li>
+                <li>@player.UserName</li>
+                <li style="color: @textColor">$ @player.PokerBalance</li>
+            </ul>
+        </div>
+        count++;
+    }
+}
+
+
+
+@code {
+    public bool isLoading = true;
+    private string _absoluteImageUri = "https://myaccount.blob.core.windows.net/images/";
+    static HttpClient client = new HttpClient();
+    public List<Player>? PokerPlayers;
+    private List<Player>? _piLamb;
+    private List<Player>? _hometown;
+    private string _piLambSelected = "rgb(65, 154, 181)";
+    private string _hometownSelected = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            HttpResponseMessage response = await client.GetAsync("https://localhost:7041/GetAllPlayers");
+
+            if (response.IsSuccessStatusCode)
+            {
+                PokerPlayers = await response.Content.ReadFromJsonAsync<List<Player>>();
+            }
+
+            _hometown = PokerPlayers.Where(player => player.FriendGroup == 1).ToList();
+            _piLamb = PokerPlayers.Where(player => player.FriendGroup == 0).ToList();
+
+            PokerPlayers = _piLamb;
+        }
+        catch { }
+        finally
+        {
+            isLoading = false;
+        }
+        StateHasChanged();
+    }
+
+    private void ChangePlayersToPiLamb()
+    {
+        PokerPlayers = _piLamb;
+        _piLambSelected = "rgb(65, 154, 181)";
+        _hometownSelected = "";
+    }
+
+    private void ChangePlayersToHometown()
+    {
+        PokerPlayers = _hometown;
+        _hometownSelected = "rgb(65, 154, 181)";
+        _piLambSelected = "";
+    }
+}

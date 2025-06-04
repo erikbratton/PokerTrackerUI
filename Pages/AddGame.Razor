@@ -1,0 +1,119 @@
+﻿@page "/AddGame"
+@inject IToastService toastService
+@using Models
+@using Dtos
+
+<link href="css/AddGame.css" rel="stylesheet" />
+
+<div class="main">
+    @if(_isLoading)
+    {
+        <h2>Loading...</h2>
+    }
+    else
+    {
+        <h1>Add Game</h1>
+
+        <div class="Group">
+            <h2 style="color: @_piLambSelected" @onclick="ChangePlayersToPiLamb" >Pi Lamb</h2>
+            <h2 style="color: @_hometownSelected" @onclick="ChangePlayersToHometown">Hometown</h2>
+        </div>
+        <form method="post" @onsubmit="Submit" @formname="PokerSessionForm">
+            <div class="IndividualFormItems">
+                <div class="formInput">
+                    <p>Name:</p>
+                    <p>Playing:</p>
+                    <p>Profit/Loss:</p>
+                    @foreach( var player in _ActivePlayers)
+                    {
+                        <label for="Name">@player.UserName</label>
+                        <input type="checkbox" @bind-value="player.IsSelected"/>
+                        <input type="text" @bind-value="player.Balance" />
+                    }
+                </div>
+            </div>
+            <div class="Submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    }
+</div>
+@code {
+    private List<Player> _pokerPlayers;
+    private List<PokerSessionFormModel> _piLamb;
+    private List<PokerSessionFormModel> _hometown;
+    private List<PokerSessionFormModel> _ActivePlayers;
+    static HttpClient client = new HttpClient();
+    private bool _isLoading = true;
+    private string _piLambSelected = "rgb(65, 154, 181)";
+    private string _hometownSelected = "";
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            HttpResponseMessage response = await client.GetAsync("https://localhost:7041/GetAllPlayers");
+
+            if (response.IsSuccessStatusCode)
+            {
+                _pokerPlayers = await response.Content.ReadFromJsonAsync<List<Player>>();
+            }
+            _ActivePlayers = _pokerPlayers.Select(player => new PokerSessionFormModel()
+            {
+                UserId = player.UserId,
+                UserName = player.UserName,
+                FriendGroup = player.FriendGroup
+            }).ToList();
+
+            _piLamb = _ActivePlayers.Where(player => player.FriendGroup == 0).ToList();
+            _hometown = _ActivePlayers.Where(player => player.FriendGroup == 1).ToList();
+
+            _ActivePlayers = _piLamb;
+        }
+        catch { }
+        finally
+        {
+            _isLoading = false;
+        }
+        StateHasChanged();
+    }
+
+    private async void Submit()
+    {
+        var selectedPlayers = _ActivePlayers.Where(player => player.IsSelected).ToList();
+        if (selectedPlayers.Sum(player => player.Balance) == 0)
+        {
+
+            var date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ");
+            var response = await client.PostAsJsonAsync($"https://localhost:7041/AddSession/{date}", selectedPlayers);
+            if (response.IsSuccessStatusCode)
+            {
+                toastService.ShowSuccess("Successfully Submitted");                
+            }
+            else
+            {
+                toastService.ShowError("Failed To Submit");
+            }
+        }
+        else
+        {
+            toastService.ShowError("Game Balances didn't sum to 0");
+        }
+    }
+
+    private void ChangePlayersToPiLamb()
+    {
+        _ActivePlayers = _piLamb;
+        _piLambSelected = "rgb(65, 154, 181)";
+        _hometownSelected = "";
+    }
+
+    private void ChangePlayersToHometown()
+    {
+        _ActivePlayers = _hometown;
+        _hometownSelected = "rgb(65, 154, 181)";
+        _piLambSelected = "";
+    }
+}

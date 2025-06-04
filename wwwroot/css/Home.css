@@ -1,0 +1,43 @@
+body {
+    background: rgb(26, 26, 39);
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.sessionList {
+    padding: 1rem;
+    font-size: 1.4rem;
+    
+}
+
+.sessionList ul li {
+    list-style: none;
+    padding: .8rem;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+}
+
+.win {
+    color: green;
+}
+
+.loss {
+    color: red;
+}

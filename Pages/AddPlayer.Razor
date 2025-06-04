@@ -1,0 +1,93 @@
+﻿@page "/AddPlayer"
+@inject IToastService toastService
+@using Models
+@using Dtos
+
+<link href="css/AddPlayer.css" rel="stylesheet" />
+
+<div class="main">
+    <h1>Add Player</h1>
+
+    <form method="post" @onsubmit="Submit" @formname="AddPlayerForm">
+        <div class="IndividualFormItems">
+            <div class="form-group">
+                <label for="inputText">Username:</label>
+                <input id="inputText" type="text" @bind-value="playerToAdd.UserName" />
+            </div>
+
+            <div class="form-group">
+                <p> Profile Picture: </p>
+                <label class="FileUpload"for="inputImage">Choose File:
+                    <InputFile hidden 
+                    id="inputImage" 
+                    OnChange="HandleFileSelected" 
+                    accept=".jpg,.jpeg,.png,.gif" />
+                </label>
+                <div class="file-input-wrapper">
+                    @if (!string.IsNullOrEmpty(imageDataUrl))
+                    {
+                        <img src="@imageDataUrl" />
+                    }
+                </div>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <div class="checkbox-item">
+                    <label for="hometownCheck">Hometown Friends</label>
+                    <input id="hometownCheck" type="checkbox" @bind-value="playerToAdd.HometownGroup" />
+                </div>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <div class="checkbox-item">
+                    <label for="fratCheck">Pi Lamb</label>
+                    <input id="fratCheck" type="checkbox" @bind-value="playerToAdd.FratGroup" />
+                </div>
+            </div>
+        </div>
+        <div class="Submit">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+@code {
+    private AddPlayerDto playerToAdd = new();
+    static HttpClient client = new HttpClient();
+    private bool _isLoading = true;
+    private string? imageDataUrl;
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file == null) return;
+
+        if (file.Size > 5 * 1024 * 1024)
+        {
+            toastService.ShowError("Image Size too Large");
+            return;
+        }
+
+        using var memoryStream = new MemoryStream();
+        await (file.OpenReadStream(5 * 1024 * 1024)).CopyToAsync(memoryStream);
+        playerToAdd.Image = memoryStream.ToArray();
+
+        //Create Image Preview
+        var base64Image = Convert.ToBase64String(playerToAdd.Image);
+        imageDataUrl = $"data:{playerToAdd.Image};base64,{base64Image}";
+    }
+
+    private async void Submit()
+    {
+        var response = await client.PostAsJsonAsync($"https://localhost:7041/AddPlayer", playerToAdd);
+        if (response.IsSuccessStatusCode)
+        {
+            toastService.ShowSuccess("Player Successfully Submitted");
+        }
+        else
+        {
+            toastService.ShowError("Player Failed to Submit");
+        }
+    }
+}
+
