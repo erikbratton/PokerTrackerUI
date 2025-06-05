@@ -5,52 +5,51 @@
 
 <link href="css/AddPlayer.css" rel="stylesheet" />
 
-<div class="main">
-    <h1>Add Player</h1>
+    <div class="main">
+        <h1>Add Player</h1>
 
-    <form method="post" @onsubmit="Submit" @formname="AddPlayerForm">
-        <div class="IndividualFormItems">
-            <div class="form-group">
-                <label for="inputText">Username:</label>
-                <input id="inputText" type="text" @bind-value="playerToAdd.UserName" />
-            </div>
+        <form method="post" @onsubmit="Submit" @formname="AddPlayerForm">
+            <div class="IndividualFormItems">
+                <div class="form-group">
+                    <label for="inputText">Username:</label>
+                    <input id="inputText" type="text" @bind-value="playerToAdd.UserName" />
+                </div>
 
-            <div class="form-group">
-                <p> Profile Picture: </p>
-                <label class="FileUpload"for="inputImage">Choose File:
-                    <InputFile hidden 
-                    id="inputImage" 
-                    OnChange="HandleFileSelected" 
-                    accept=".jpg,.jpeg,.png,.gif" />
-                </label>
-                <div class="file-input-wrapper">
-                    @if (!string.IsNullOrEmpty(imageDataUrl))
-                    {
-                        <img src="@imageDataUrl" />
-                    }
+                <div class="form-group">
+                    <p> Profile Picture: </p>
+                    <label class="FileUpload"for="inputImage">Choose File:
+                        <InputFile hidden 
+                        id="inputImage" 
+                        OnChange="HandleFileSelected" 
+                        accept=".jpg,.jpeg,.png,.gif" />
+                    </label>
+                    <div class="file-input-wrapper">
+                        @if (!string.IsNullOrEmpty(imageDataUrl))
+                        {
+                            <img src="@imageDataUrl" />
+                        }
+                    </div>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <div class="checkbox-item">
+                        <label for="hometownCheck">Hometown Friends</label>
+                        <input id="hometownCheck" type="checkbox" @bind-value="playerToAdd.HometownGroup" />
+                    </div>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <div class="checkbox-item">
+                        <label for="fratCheck">Pi Lamb</label>
+                        <input id="fratCheck" type="checkbox" @bind-value="playerToAdd.FratGroup" />
+                    </div>
                 </div>
             </div>
-
-            <div class="form-group checkbox-group">
-                <div class="checkbox-item">
-                    <label for="hometownCheck">Hometown Friends</label>
-                    <input id="hometownCheck" type="checkbox" @bind-value="playerToAdd.HometownGroup" />
-                </div>
+            <div class="Submit">
+                <button type="submit">Submit</button>
             </div>
-
-            <div class="form-group checkbox-group">
-                <div class="checkbox-item">
-                    <label for="fratCheck">Pi Lamb</label>
-                    <input id="fratCheck" type="checkbox" @bind-value="playerToAdd.FratGroup" />
-                </div>
-            </div>
-        </div>
-        <div class="Submit">
-            <button type="submit">Submit</button>
-        </div>
-    </form>
-</div>
-
+        </form>
+    </div>
 @code {
     private AddPlayerDto playerToAdd = new();
     static HttpClient client = new HttpClient();
@@ -79,12 +78,19 @@
 
     private async void Submit()
     {
-        var response = await client.PostAsJsonAsync($"https://localhost:7041/AddPlayer", playerToAdd);
-        if (response.IsSuccessStatusCode)
+        try
         {
-            toastService.ShowSuccess("Player Successfully Submitted");
+            var response = await client.PostAsJsonAsync($"https://sampleapi-9y49.onrender.com/AddPlayer", playerToAdd);
+            if (response.IsSuccessStatusCode)
+            {
+                toastService.ShowSuccess("Player Successfully Submitted");
+            }
+            else
+            {
+                toastService.ShowError("Player Failed to Submit");
+            }
         }
-        else
+        catch
         {
             toastService.ShowError("Player Failed to Submit");
         }

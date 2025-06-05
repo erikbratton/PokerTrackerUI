@@ -10,6 +10,10 @@
     {
         <h2>Loading...</h2>
     }
+    else if(_apiFailed)
+    {
+        <h2>Failed to Load</h2>
+    }
     else
     {
         <h1>Add Game</h1>
@@ -45,6 +49,7 @@
     private List<PokerSessionFormModel> _ActivePlayers;
     static HttpClient client = new HttpClient();
     private bool _isLoading = true;
+    private bool _apiFailed = false;
     private string _piLambSelected = "rgb(65, 154, 181)";
     private string _hometownSelected = "";
 
@@ -54,7 +59,7 @@
     {
         try
         {
-            HttpResponseMessage response = await client.GetAsync("https://localhost:7041/GetAllPlayers");
+            HttpResponseMessage response = await client.GetAsync("https://sampleapi-9y49.onrender.com/GetAllPlayers");
 
             if (response.IsSuccessStatusCode)
             {
@@ -75,6 +80,7 @@
         catch { }
         finally
         {
+            _apiFailed = true;
             _isLoading = false;
         }
         StateHasChanged();

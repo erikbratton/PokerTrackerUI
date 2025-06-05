@@ -11,6 +11,10 @@
 {
     <h2>loading...</h2>
 }
+else if(_apiFailed)
+{
+    <h2>Failed to Load</h2>
+}
 else{
     <div class="Group">
         <h2 style="color: @_piLambSelected" @onclick="ChangePlayersToPiLamb">Pi Lamb</h2>
@@ -71,12 +75,13 @@ else{
     private List<Player>? _hometown;
     private string _piLambSelected = "rgb(65, 154, 181)";
     private string _hometownSelected = "";
+    private bool _apiFailed = false;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            HttpResponseMessage response = await client.GetAsync("https://localhost:7041/GetAllPlayers");
+            HttpResponseMessage response = await client.GetAsync("https://sampleapi-9y49.onrender.com/GetAllPlayers");
 
             if (response.IsSuccessStatusCode)
             {
@@ -88,7 +93,10 @@ else{
 
             PokerPlayers = _piLamb;
         }
-        catch { }
+        catch
+        {
+            _apiFailed = true;
+        }
         finally
         {
             isLoading = false;

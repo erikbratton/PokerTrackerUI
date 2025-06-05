@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SampleTestUI",
   "resources": {
-    "hash": "sha256-Usq8BbrbqZdgLAov7U6d4+ipN8MBNBAh8vxPEkUMaLE=",
+    "hash": "sha256-pef1si1pHsbmHQA6CjhmVzqqEkZH/NQ6DgMVVp2e9sc=",
     "fingerprinting": {
       "Blazor-ApexCharts.asn021yqfh.wasm": "Blazor-ApexCharts.wasm",
       "Blazored.Toast.4gbrhkrum5.wasm": "Blazored.Toast.wasm",
@@ -297,8 +297,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "SampleTestUI.kopstrfcor.wasm": "SampleTestUI.wasm",
-      "SampleTestUI.zejvevudzz.pdb": "SampleTestUI.pdb"
+      "SampleTestUI.iaohubrbjk.wasm": "SampleTestUI.wasm",
+      "SampleTestUI.gjunbukpp5.pdb": "SampleTestUI.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
@@ -539,10 +539,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "SampleTestUI.kopstrfcor.wasm": "sha256-BOpbu7xJTNEmsVxnsxyVI7YbFMa6wgYkxe+grmHqeI0="
+      "SampleTestUI.iaohubrbjk.wasm": "sha256-Ou/4aN4DF49t2bfnRvR8hqRIXIXPB4mHGQ2ElOS4wgw="
     },
     "pdb": {
-      "SampleTestUI.zejvevudzz.pdb": "sha256-Cz4zHDL/sBZPHRFair0CXLav1TH/rExMx3zCDSyasz4="
+      "SampleTestUI.gjunbukpp5.pdb": "sha256-pGLnC322tFiOB0rIeP6RL0SsRc8z+7xQqGKsAYxHgv4="
     },
     "satelliteResources": {
       "cs": {

@@ -1609,10 +1609,10 @@ C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compre
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\nq4rhrlzgk-7ubeeq14pc.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\ulyih4hbdn-j86n1kbf43.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\qcs9f2nwx7-ryat7hvx56.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.zejvevudzz.pdb
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.kopstrfcor.wasm
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.kopstrfcor.wasm.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.zejvevudzz.pdb.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\7wziisjgtk-kopstrfcor.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\jfiv0rgufq-zejvevudzz.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\pyyhkwttqj-mmhynsylmq.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.gjunbukpp5.pdb
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.iaohubrbjk.wasm
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.iaohubrbjk.wasm.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.gjunbukpp5.pdb.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\7wziisjgtk-iaohubrbjk.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\jfiv0rgufq-gjunbukpp5.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\pyyhkwttqj-awjoex178d.gz
