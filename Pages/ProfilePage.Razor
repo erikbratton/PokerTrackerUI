@@ -93,7 +93,7 @@
     static HttpClient client = new HttpClient();
     PokerPlayerDto PlayerLoggedIn;
     List<Player> PokerPlayers;
-    private bool apiCheck = false;
+    private bool _apiCheck = false;
     bool isLoading = true;
 
     public async Task onChange(ChangeEventArgs args)
@@ -129,7 +129,7 @@
         }
         catch
         {
-            apiCheck = false;
+            _apiCheck = false;
         }
     }
 
@@ -179,7 +179,7 @@
         }
         catch
         {
-            apiCheck = false;
+            _apiCheck = false;
         }
         finally
 		{
