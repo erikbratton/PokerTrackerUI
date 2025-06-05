@@ -93,7 +93,7 @@
         {
 
             var date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ");
-            var response = await client.PostAsJsonAsync($"https://localhost:7041/AddSession/{date}", selectedPlayers);
+            var response = await client.PostAsJsonAsync($"https://sampleapi-9y49.onrender.com/AddSession/{date}", selectedPlayers);
             if (response.IsSuccessStatusCode)
             {
                 toastService.ShowSuccess("Successfully Submitted");                
