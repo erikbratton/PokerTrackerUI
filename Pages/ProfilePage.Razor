@@ -182,8 +182,9 @@
             _apiCheck = false;
         }
         finally
-		{
-			isLoading = false;
+        {
+            _apiCheck = true;
+            isLoading = false;
 		}
 		StateHasChanged();
 	}

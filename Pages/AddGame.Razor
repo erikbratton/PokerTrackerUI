@@ -77,10 +77,12 @@
 
             _ActivePlayers = _piLamb;
         }
-        catch { }
-        finally
+        catch
         {
             _apiFailed = true;
+        }
+        finally
+        {
             _isLoading = false;
         }
         StateHasChanged();
