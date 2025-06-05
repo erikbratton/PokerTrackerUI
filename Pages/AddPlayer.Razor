@@ -81,7 +81,7 @@
     {
         try
         {
-            var response = await client.PostAsJsonAsync($"https:/sampleapi-9y49.onrender.com/AddPlayer", playerToAdd);
+            var response = await client.PostAsJsonAsync($"https://sampleapi-9y49.onrender.com/AddPlayer", playerToAdd);
             if (response.IsSuccessStatusCode)
             {
                 toastService.ShowSuccess("Player Successfully Submitted");
