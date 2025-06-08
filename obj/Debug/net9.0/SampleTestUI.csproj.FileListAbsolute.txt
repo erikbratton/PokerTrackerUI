@@ -1596,7 +1596,6 @@ C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compre
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\ofyfwg40a8-4gbrhkrum5.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\582t01oiyn-tl5v6cpiys.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\vhrfb8lib8-r7cmc5jf38.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\s7l3906ylj-bcedudbagr.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\Docker.DotNet.j86n1kbf43.wasm
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\Newtonsoft.Json.ryat7hvx56.wasm
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\Newtonsoft.Json.ryat7hvx56.wasm.gz
@@ -1609,11 +1608,12 @@ C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compre
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\nq4rhrlzgk-7ubeeq14pc.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\ulyih4hbdn-j86n1kbf43.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\qcs9f2nwx7-ryat7hvx56.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.1aceaau26v.pdb
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.jtc0ttkcof.wasm
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.jtc0ttkcof.wasm.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.1aceaau26v.pdb.gz
 C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\staticwebapp.config.json
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\7wziisjgtk-jtc0ttkcof.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\jfiv0rgufq-1aceaau26v.gz
-C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\pyyhkwttqj-wcfkkbmqjv.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.esgv3n4plq.pdb
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.w9imbmcusr.wasm
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.w9imbmcusr.wasm.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\bin\Debug\net9.0\wwwroot\_framework\SampleTestUI.esgv3n4plq.pdb.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\s7l3906ylj-4z9st8m5i9.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\7wziisjgtk-w9imbmcusr.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\jfiv0rgufq-esgv3n4plq.gz
+C:\Users\E1517601\source\repos\SampleApiApp\SampleTestUI\obj\Debug\net9.0\compressed\pyyhkwttqj-hsdartbmaq.gz

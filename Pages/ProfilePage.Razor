@@ -8,6 +8,11 @@
 
 <div class="MainContent"
 
+    <div class="Group">
+        <h2 style="color: @_piLambSelected" @onclick="ChangePlayersToPiLamb">Pi Lamb</h2>
+        <h2 style="color: @_hometownSelected" @onclick="ChangePlayersToHometown">Hometown</h2>
+    </div>
+
     <h1>Select Player to View</h1>
 
     @if(!isLoading && _apiCheck)
@@ -93,7 +98,13 @@
     private ApexChartOptions<PlayerSessions> options { get; set; } = new();
     static HttpClient client = new HttpClient();
     PokerPlayerDto PlayerLoggedIn;
-    List<Player> PokerPlayers;
+
+    private List<Player> PokerPlayers;
+    private List<Player>? _piLamb;
+    private List<Player>? _hometown;
+    private string _piLambSelected = "rgb(65, 154, 181)";
+    private string _hometownSelected = "";
+
     private bool _apiCheck = false;
     bool isLoading = true;
 
@@ -125,6 +136,7 @@
                     UpdateChartOptions();
                 }
                 isPlayerSelected = true;
+
                 StateHasChanged();
             }
         }
@@ -176,7 +188,12 @@
             if (response.IsSuccessStatusCode)
             {
                 PokerPlayers = await response.Content.ReadFromJsonAsync<List<Player>>();
-            }            
+            } 
+
+            _hometown = PokerPlayers.Where(player => player.FriendGroup == 1).ToList();
+            _piLamb = PokerPlayers.Where(player => player.FriendGroup == 0).ToList();
+
+            PokerPlayers = _piLamb;
         }
         catch
         {
@@ -189,4 +206,18 @@
 		}
 		StateHasChanged();
 	}
+
+    private void ChangePlayersToPiLamb()
+    {
+        PokerPlayers = _piLamb;
+        _piLambSelected = "rgb(65, 154, 181)";
+        _hometownSelected = "";
+    }
+
+    private void ChangePlayersToHometown()
+    {
+        PokerPlayers = _hometown;
+        _hometownSelected = "rgb(65, 154, 181)";
+        _piLambSelected = "";
+    }
 }

@@ -53,3 +53,16 @@ h2 {
 h1 {
     font-size: 3rem
 }
+
+.Group {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem
+}
+
+.Group h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
