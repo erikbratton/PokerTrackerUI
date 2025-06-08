@@ -203,12 +203,13 @@
         {
             _apiCheck = true;
             isLoading = false;
-		}
-		StateHasChanged();
-	}
+        }
+        StateHasChanged();
+    }
 
     private void ChangePlayersToPiLamb()
     {
+        isPlayerSelected = false;
         PokerPlayers = _piLamb;
         _piLambSelected = "rgb(65, 154, 181)";
         _hometownSelected = "";
@@ -216,6 +217,7 @@
 
     private void ChangePlayersToHometown()
     {
+        isPlayerSelected = false;
         PokerPlayers = _hometown;
         _hometownSelected = "rgb(65, 154, 181)";
         _piLambSelected = "";
