@@ -55,6 +55,13 @@ h1 {
     border-radius: 3rem;
 }
 
+.smallImage {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+}
+
 .playerTable li {
     font-size: 1.6rem;
     font-family: "Cal Sans", sans-serif;

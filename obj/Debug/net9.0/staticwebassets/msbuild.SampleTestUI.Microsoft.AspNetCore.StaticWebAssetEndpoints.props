@@ -87,14 +87,14 @@
     <StaticWebAssetEndpoint Include="css/PokerPlayers.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\PokerPlayers.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qWgwOGbVdpLIVYv0t9TnWj3G30V8ffxWdVuBxKFS3mg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1899"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qWgwOGbVdpLIVYv0t9TnWj3G30V8ffxWdVuBxKFS3mg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 16:01:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fPOjg8aLYT/\u002Bprr9J2uK9t1T8oC\u002BNcW37HxJ3mbkRgs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1982"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fPOjg8aLYT/\u002Bprr9J2uK9t1T8oC\u002BNcW37HxJ3mbkRgs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Jun 2025 17:34:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="css/PokerPlayers.r7cmc5jf38.css">
+    <StaticWebAssetEndpoint Include="css/PokerPlayers.wlrvb98hpm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\PokerPlayers.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r7cmc5jf38"},{"Name":"integrity","Value":"sha256-qWgwOGbVdpLIVYv0t9TnWj3G30V8ffxWdVuBxKFS3mg="},{"Name":"label","Value":"css/PokerPlayers.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1899"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qWgwOGbVdpLIVYv0t9TnWj3G30V8ffxWdVuBxKFS3mg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 16:01:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wlrvb98hpm"},{"Name":"integrity","Value":"sha256-fPOjg8aLYT/\u002Bprr9J2uK9t1T8oC\u002BNcW37HxJ3mbkRgs="},{"Name":"label","Value":"css/PokerPlayers.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1982"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fPOjg8aLYT/\u002Bprr9J2uK9t1T8oC\u002BNcW37HxJ3mbkRgs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Jun 2025 17:34:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/ProfilePage.4z9st8m5i9.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ProfilePage.css'))</AssetFile>
