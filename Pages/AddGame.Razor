@@ -24,6 +24,8 @@
             <h2 style="color: @_hometownSelected" @onclick="ChangePlayersToHometown">Hometown</h2>
         </div>
         <form method="post" @onsubmit="Submit" @formname="PokerSessionForm">
+            <p>Game Date:</p>
+            <input id="datePicker" type="date" @bind-value="dateOfGame">
             <div class="IndividualFormItems">
                 <div class="formInput">
                     <p>Name:</p>
@@ -53,7 +55,7 @@
     private bool _apiFailed = false;
     private string _piLambSelected = "rgb(65, 154, 181)";
     private string _hometownSelected = "";
-
+    private DateTime dateOfGame = DateTime.Now;
 
 
     protected override async Task OnInitializedAsync()
@@ -95,7 +97,7 @@
         if (selectedPlayers.Sum(player => player.Balance) == 0)
         {
 
-            var date = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ");
+            var date = dateOfGame.ToString("yyyy-MM-ddTHH:mm:ssZ");
             var response = await client.PostAsJsonAsync($"https://sampleapi-9y49.onrender.com/AddSession/{date}", selectedPlayers);
             if (response.IsSuccessStatusCode)
             {

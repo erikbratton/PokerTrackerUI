@@ -49,3 +49,7 @@ h2:hover {
     gap: 10rem;
     padding: 3rem;
 }
+
+#datePicker {
+    margin-bottom: 2rem;
+}

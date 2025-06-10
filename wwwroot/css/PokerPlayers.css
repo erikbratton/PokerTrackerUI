@@ -37,7 +37,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 2rem;
+    gap: 6rem;
 }
 
 .playerList {
@@ -46,7 +46,7 @@ h1 {
     justify-items: center;
     align-items: center;
     list-style: none;
-    grid-template-columns: 0rem 10rem 10rem 10rem;
+    grid-template-columns: 0rem 10rem 15rem 10rem;
 }
 
 .playerTable img {

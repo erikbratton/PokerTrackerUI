@@ -24,7 +24,6 @@ else{
     {
         <h2 style="padding-top: 2rem">Top 3</h2>
         <div class="Leaderboard">
-            @*<img src="pokertable.png"/>*@
             <div class="Podium">
                 <p>@PokerPlayers[1].UserName</p>
                 <img class="smallImage" src="@PokerPlayers[1].ImageUrl"/>
@@ -71,7 +70,6 @@ else{
 
 @code {
     public bool isLoading = true;
-    private string _absoluteImageUri = "https://myaccount.blob.core.windows.net/images/";
     static HttpClient client = new HttpClient();
     public List<Player>? PokerPlayers;
     private List<Player>? _piLamb;
