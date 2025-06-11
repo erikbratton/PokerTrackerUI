@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OgXSyvSI1XNEnv0SB8FSeUaOdeaGJSWL3KWDd01WxKU=",
+  "Hash": "X/atZcFsw0g28mvdgAstlPBNhBwpjGg9z6LZM+EzXew=",
   "Source": "SampleTestUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "7xpxid593b",
-      "Integrity": "hcilMV+1DyjfXaI9/8FYcWmp6R79ejbn6GWu60U4aBU=",
+      "Fingerprint": "ec6urnk3w1",
+      "Integrity": "Ys212c64XG7mc8p8JIVpJckXNZWV8NKNQvEjOyKZQ8o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -3454,8 +3454,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "x5wmkuk9fc",
-      "Integrity": "q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU=",
+      "Fingerprint": "g2i77o5482",
+      "Integrity": "yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\SampleTestUI.pdb"
@@ -3475,8 +3475,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "boezq4f2d3",
-      "Integrity": "9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA=",
+      "Fingerprint": "i7pgtho6jc",
+      "Integrity": "Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\webcil\\SampleTestUI.wasm"
@@ -9173,12 +9173,12 @@
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\tr\\Microsoft.CodeAnalysis.CSharp.resources.wasm"
     },
     {
-      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-boezq4f2d3.gz",
+      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-i7pgtho6jc.gz",
       "SourceId": "SampleTestUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/SampleTestUI#[.{fingerprint=boezq4f2d3}]!.wasm.gz",
+      "RelativePath": "_framework/SampleTestUI#[.{fingerprint=i7pgtho6jc}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9187,8 +9187,8 @@
       "RelatedAsset": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qlsce0v06p",
-      "Integrity": "ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw=",
+      "Fingerprint": "vv0bisy6oa",
+      "Integrity": "O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm"
@@ -12134,12 +12134,12 @@
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\fr\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.wasm"
     },
     {
-      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-x5wmkuk9fc.gz",
+      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-g2i77o5482.gz",
       "SourceId": "SampleTestUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/SampleTestUI#[.{fingerprint=x5wmkuk9fc}]!.pdb.gz",
+      "RelativePath": "_framework/SampleTestUI#[.{fingerprint=g2i77o5482}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -12148,8 +12148,8 @@
       "RelatedAsset": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7lfnkabvyj",
-      "Integrity": "qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY=",
+      "Fingerprint": "7k4v55cfkb",
+      "Integrity": "Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.pdb"
@@ -13520,7 +13520,7 @@
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Compression.wasm"
     },
     {
-      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-7xpxid593b.gz",
+      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-ec6urnk3w1.gz",
       "SourceId": "SampleTestUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\",
@@ -13534,8 +13534,8 @@
       "RelatedAsset": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nb5btj5ym7",
-      "Integrity": "syirMVfbQ71aTW7XkToZb4eL91oUGAGFKPS6Io8PjGw=",
+      "Fingerprint": "tke5wxoirn",
+      "Integrity": "8+IXn3BUHSzPj/ao5RHcdSzWWCtbqNX75P9sgxy+9x4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -14717,12 +14717,12 @@
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.wasm"
     },
     {
-      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-6nzeh123rr.gz",
+      "Identity": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-61bcre01oy.gz",
       "SourceId": "SampleTestUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/PokerPlayers#[.{fingerprint=6nzeh123rr}]?.css.gz",
+      "RelativePath": "css/PokerPlayers#[.{fingerprint=61bcre01oy}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -14731,8 +14731,8 @@
       "RelatedAsset": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\wwwroot\\css\\PokerPlayers.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kv6ucjlhg9",
-      "Integrity": "sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M=",
+      "Fingerprint": "ywrrfk8lsh",
+      "Integrity": "7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\wwwroot\\css\\PokerPlayers.css"
@@ -15991,8 +15991,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6nzeh123rr",
-      "Integrity": "Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y=",
+      "Fingerprint": "61bcre01oy",
+      "Integrity": "2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\PokerPlayers.css"
@@ -25780,11 +25780,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hcilMV+1DyjfXaI9/8FYcWmp6R79ejbn6GWu60U4aBU=\""
+          "Value": "\"Ys212c64XG7mc8p8JIVpJckXNZWV8NKNQvEjOyKZQ8o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25794,18 +25794,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hcilMV+1DyjfXaI9/8FYcWmp6R79ejbn6GWu60U4aBU="
+          "Value": "sha256-Ys212c64XG7mc8p8JIVpJckXNZWV8NKNQvEjOyKZQ8o="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-7xpxid593b.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-ec6urnk3w1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054659743"
+          "Quality": "0.000054662731"
         }
       ],
       "ResponseHeaders": [
@@ -25815,15 +25815,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18294"
+          "Value": "18293"
         },
         {
           "Name": "ETag",
-          "Value": "\"syirMVfbQ71aTW7XkToZb4eL91oUGAGFKPS6Io8PjGw=\""
+          "Value": "\"8+IXn3BUHSzPj/ao5RHcdSzWWCtbqNX75P9sgxy+9x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:22:02 GMT"
+          "Value": "Wed, 11 Jun 2025 17:05:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25843,19 +25843,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hcilMV+1DyjfXaI9/8FYcWmp6R79ejbn6GWu60U4aBU=\""
+          "Value": "W/\"Ys212c64XG7mc8p8JIVpJckXNZWV8NKNQvEjOyKZQ8o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hcilMV+1DyjfXaI9/8FYcWmp6R79ejbn6GWu60U4aBU="
+          "Value": "sha256-Ys212c64XG7mc8p8JIVpJckXNZWV8NKNQvEjOyKZQ8o="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-7xpxid593b.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\pyyhkwttqj-ec6urnk3w1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -25864,7 +25864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18294"
+          "Value": "18293"
         },
         {
           "Name": "Content-Type",
@@ -25872,11 +25872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"syirMVfbQ71aTW7XkToZb4eL91oUGAGFKPS6Io8PjGw=\""
+          "Value": "\"8+IXn3BUHSzPj/ao5RHcdSzWWCtbqNX75P9sgxy+9x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:22:02 GMT"
+          "Value": "Wed, 11 Jun 2025 17:05:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25894,7 +25894,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-syirMVfbQ71aTW7XkToZb4eL91oUGAGFKPS6Io8PjGw="
+          "Value": "sha256-8+IXn3BUHSzPj/ao5RHcdSzWWCtbqNX75P9sgxy+9x4="
         }
       ]
     },
@@ -59710,168 +59710,7 @@
       ]
     },
     {
-      "Route": "_framework/SampleTestUI.boezq4f2d3.wasm",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "48917"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "boezq4f2d3"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/SampleTestUI.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.boezq4f2d3.wasm",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-boezq4f2d3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000051937260"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19253"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "boezq4f2d3"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/SampleTestUI.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.boezq4f2d3.wasm.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-boezq4f2d3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19253"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "boezq4f2d3"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/SampleTestUI.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.pdb",
+      "Route": "_framework/SampleTestUI.g2i77o5482.pdb",
       "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -59881,7 +59720,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41664"
+          "Value": "41784"
         },
         {
           "Name": "Content-Type",
@@ -59889,285 +59728,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU=\""
+          "Value": "\"yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.pdb",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-x5wmkuk9fc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032839644"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30450"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.pdb.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-x5wmkuk9fc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30450"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.wasm",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "48917"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.wasm",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-boezq4f2d3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000051937260"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19253"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9XDqHj8CZAil1E+7ToU4D+SnAJpJJikKfzNunNRk9HA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.wasm.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-boezq4f2d3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19253"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ztmMM87UFw01mNmIRJm2ESuJARTQG+WytA13yTO+dTw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/SampleTestUI.x5wmkuk9fc.pdb",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "41664"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
+          "Value": "Wed, 11 Jun 2025 17:30:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -60177,7 +59742,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x5wmkuk9fc"
+          "Value": "g2i77o5482"
         },
         {
           "Name": "label",
@@ -60185,18 +59750,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU="
+          "Value": "sha256-yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo="
         }
       ]
     },
     {
-      "Route": "_framework/SampleTestUI.x5wmkuk9fc.pdb",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-x5wmkuk9fc.gz",
+      "Route": "_framework/SampleTestUI.g2i77o5482.pdb",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-g2i77o5482.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032839644"
+          "Quality": "0.000032728939"
         }
       ],
       "ResponseHeaders": [
@@ -60206,15 +59771,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30450"
+          "Value": "30553"
         },
         {
           "Name": "ETag",
-          "Value": "\"qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY=\""
+          "Value": "\"Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -60234,13 +59799,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU=\""
+          "Value": "W/\"yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x5wmkuk9fc"
+          "Value": "g2i77o5482"
         },
         {
           "Name": "label",
@@ -60248,13 +59813,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q2dTqPC1MM64NwI7PcHypp/yjOV9V26pUX5zoI7vhyU="
+          "Value": "sha256-yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo="
         }
       ]
     },
     {
-      "Route": "_framework/SampleTestUI.x5wmkuk9fc.pdb.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-x5wmkuk9fc.gz",
+      "Route": "_framework/SampleTestUI.g2i77o5482.pdb.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-g2i77o5482.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -60263,7 +59828,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30450"
+          "Value": "30553"
         },
         {
           "Name": "Content-Type",
@@ -60271,11 +59836,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY=\""
+          "Value": "\"Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 12:23:17 GMT"
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -60293,7 +59858,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x5wmkuk9fc"
+          "Value": "g2i77o5482"
         },
         {
           "Name": "label",
@@ -60301,7 +59866,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qxo5RAP7cRkNTvayMJENRk0sNIz0tdh8u92L1yDJukY="
+          "Value": "sha256-Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.i7pgtho6jc.wasm",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7pgtho6jc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/SampleTestUI.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.i7pgtho6jc.wasm",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-i7pgtho6jc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000051493306"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19419"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7pgtho6jc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/SampleTestUI.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.i7pgtho6jc.wasm.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-i7pgtho6jc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7pgtho6jc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/SampleTestUI.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.pdb",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.pdb",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-g2i77o5482.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032728939"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJFD6AI4YQ+wj0f3DUXDJJv2+1mw6+vuiG2LrcR0VMo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.pdb.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\jfiv0rgufq-g2i77o5482.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kf4pLJuDPKG4vDN+GUGL+mBA+JPdX3Jv1zDPw8aspIo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.wasm",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\SampleTestUI.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.wasm",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-i7pgtho6jc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000051493306"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19419"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yvu1lfczL1z95RG/+pGSfYNVYckJYHmIhQkkwzWRiIQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/SampleTestUI.wasm.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\7wziisjgtk-i7pgtho6jc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 17:30:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O7vEp7mMrGA7HAY22XLKEcAG2ouSLegMai3sQK9MGww="
         }
       ]
     },
@@ -116494,13 +116494,13 @@
       ]
     },
     {
-      "Route": "css/PokerPlayers.6nzeh123rr.css",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-6nzeh123rr.gz",
+      "Route": "css/PokerPlayers.61bcre01oy.css",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-61bcre01oy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001785714286"
+          "Quality": "0.001773049645"
         }
       ],
       "ResponseHeaders": [
@@ -116510,15 +116510,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "563"
         },
         {
           "Name": "ETag",
-          "Value": "\"sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M=\""
+          "Value": "\"7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116538,13 +116538,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y=\""
+          "Value": "W/\"2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6nzeh123rr"
+          "Value": "61bcre01oy"
         },
         {
           "Name": "label",
@@ -116552,12 +116552,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y="
+          "Value": "sha256-2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk="
         }
       ]
     },
     {
-      "Route": "css/PokerPlayers.6nzeh123rr.css",
+      "Route": "css/PokerPlayers.61bcre01oy.css",
       "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\wwwroot\\css\\PokerPlayers.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -116575,11 +116575,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y=\""
+          "Value": "\"2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116589,7 +116589,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6nzeh123rr"
+          "Value": "61bcre01oy"
         },
         {
           "Name": "label",
@@ -116597,13 +116597,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y="
+          "Value": "sha256-2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk="
         }
       ]
     },
     {
-      "Route": "css/PokerPlayers.6nzeh123rr.css.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-6nzeh123rr.gz",
+      "Route": "css/PokerPlayers.61bcre01oy.css.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-61bcre01oy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -116612,7 +116612,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "563"
         },
         {
           "Name": "Content-Type",
@@ -116620,11 +116620,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M=\""
+          "Value": "\"7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116642,7 +116642,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6nzeh123rr"
+          "Value": "61bcre01oy"
         },
         {
           "Name": "label",
@@ -116650,18 +116650,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M="
+          "Value": "sha256-7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4="
         }
       ]
     },
     {
       "Route": "css/PokerPlayers.css",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-6nzeh123rr.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-61bcre01oy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001785714286"
+          "Quality": "0.001773049645"
         }
       ],
       "ResponseHeaders": [
@@ -116671,15 +116671,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "563"
         },
         {
           "Name": "ETag",
-          "Value": "\"sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M=\""
+          "Value": "\"7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116699,13 +116699,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y=\""
+          "Value": "W/\"2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y="
+          "Value": "sha256-2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk="
         }
       ]
     },
@@ -116728,11 +116728,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y=\""
+          "Value": "\"2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116742,13 +116742,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Dh+HLZyLgj3KZnBq4M6qbs8pzWOF13/TzyMbipSZb0Y="
+          "Value": "sha256-2vW//cq46E4CM8TNe/qaDfv3jSwRtwRvc7u+SMSNYYk="
         }
       ]
     },
     {
       "Route": "css/PokerPlayers.css.gz",
-      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-6nzeh123rr.gz",
+      "AssetFile": "C:\\Users\\E1517601\\source\\repos\\SampleApiApp\\SampleTestUI\\obj\\Debug\\net9.0\\compressed\\vhrfb8lib8-61bcre01oy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -116757,7 +116757,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "559"
+          "Value": "563"
         },
         {
           "Name": "Content-Type",
@@ -116765,11 +116765,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M=\""
+          "Value": "\"7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:36:35 GMT"
+          "Value": "Tue, 10 Jun 2025 12:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116787,7 +116787,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sDn63qyuPSrDLGUibQUh6f6dd6Esmyhf1zE4htgni7M="
+          "Value": "sha256-7jpTQONJJ1CMXS6ALQYeSnRoYgfksgNiNznlfDtO+x4="
         }
       ]
     },

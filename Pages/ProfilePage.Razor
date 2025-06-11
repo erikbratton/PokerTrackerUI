@@ -39,6 +39,9 @@
 
         @if(PlayerLoggedIn.Sessions.Count() > 0)
         {
+            <h2>Balance:</h2>
+            <h3>$@PlayerLoggedIn.PokerBalance</h3>
+
             <div class="BestWorstSessions">
                 <div>
                     <h2>Best Session:</h2>
@@ -110,15 +113,17 @@
 
     public async Task onChange(ChangeEventArgs args)
     {
+
         if (args.Value != null)
         {
             var id = int.Parse(args.Value.ToString());
             LoadPlayer(id);
-        }                   
+        }
     }
 
     private async Task LoadPlayer(int id)
     {
+        isPlayerSelected = false;
         try
         {
             HttpResponseMessage response = await client.GetAsync($"https://sampleapi-9y49.onrender.com/LoadPlayer/{id}");
@@ -133,6 +138,7 @@
                     BestGame = PlayerLoggedIn.Sessions.MaxBy(session => session.SessionBalance);
                     WorstGame = PlayerLoggedIn.Sessions.MinBy(session => session.SessionBalance);
                     AveragePerformance = Math.Round(PlayerLoggedIn.Sessions.Average(session => session.SessionBalance), 2);
+                    PlayerLoggedIn.Sessions = PlayerLoggedIn.Sessions.OrderByDescending(session => session.SessionDate).ToList();
                     UpdateChartOptions();
                 }
                 isPlayerSelected = true;
