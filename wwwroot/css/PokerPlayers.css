@@ -37,7 +37,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 6rem;
+    gap: 8rem;
 }
 
 .playerList {
@@ -105,12 +105,11 @@ h1 {
     padding: 0;
 }
 
-    .Podium p {
+.Podium p {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: clamp(0.5rem, 1cqw, 2rem);
         font-family: "Cal Sans", sans-serif;
         font-weight: 150;
         font-style: normal;
         margin: 0;
-        padding: 0;
-    }
+}
