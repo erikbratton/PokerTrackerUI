@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>umn8qhhfxf</Fingerprint>
-      <Integrity>pje49CIFktNrtthrMKPMW6GioYyYlEhbRMLzBRGsmyw=</Integrity>
+      <Fingerprint>5oyo70ykb7</Fingerprint>
+      <Integrity>hUzJsTT0ZE8OI0oRQap2gwwAn3bkcTHZ49yJqGSkg4g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\PokerPlayers.css'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wc9gl0g9ux</Fingerprint>
-      <Integrity>YAg5kyz8UwJIqF7mDYBfJhKVVGPaZ71YxN2JaykjlQc=</Integrity>
+      <Fingerprint>gg532lv2z9</Fingerprint>
+      <Integrity>oJu0PlFnHQ/9LvY0Fui/JZu4aLVBqxiRMe+2aVuXKmk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

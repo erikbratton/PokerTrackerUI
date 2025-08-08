@@ -33,11 +33,13 @@ h1 {
 }
 
 .Leaderboard {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: end;
+    min-height: 300px;
 }
 
 .playerList {
