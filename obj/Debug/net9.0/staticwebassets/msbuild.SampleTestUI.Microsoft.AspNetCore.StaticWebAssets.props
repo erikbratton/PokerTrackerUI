@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5oyo70ykb7</Fingerprint>
-      <Integrity>hUzJsTT0ZE8OI0oRQap2gwwAn3bkcTHZ49yJqGSkg4g=</Integrity>
+      <Fingerprint>w0bn2lxd4i</Fingerprint>
+      <Integrity>kJ3ZLgQ7EbkxJ4c1vto2ZK0oj5M49sGrQpxqSOe1aJQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\PokerPlayers.css'))</OriginalItemSpec>
